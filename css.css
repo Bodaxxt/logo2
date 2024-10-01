@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(2, 2, 31), rgb(98, 90, 134)); 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: 650px;
+    background: 
+        linear-gradient(to right, rgba(12, 5, 34, 0.815) 30%, rgba(64, 61, 78, 0.637)),
+        url('https://wallpapers.com/images/hd/epic-battle-avengers-assemble-in-4k-cxruu2dupxmdgrhe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container:hover {
+    width: 90%;
+    height: 650px;
+    background: 
+        linear-gradient(to right, rgba(12, 5, 34, 0.815) 30%, transparent),
+        url('https://wallpapers.com/images/hd/epic-battle-avengers-assemble-in-4k-cxruu2dupxmdgrhe.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.content{
+    color: aliceblue;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    text-transform: lowercase;
+
+}
+.content button {
+    padding: 10px 20px;
+    background-color: #1c1c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content button:hover {
+    background-color: #33335a;
+}
